@@ -1,0 +1,229 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#headingSection{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    color: white;
+    background-color: #be0b1c;
+    background-image: linear-gradient(43deg, #be0b1c 0%, #e62828 46%, #b20a1e 100%);
+    text-shadow: 2px 2px black;
+}
+
+#container1{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+}
+#srgcImg{
+    height: 90px;
+    width:200px;
+    padding:10px;
+    border-radius: 150px;
+}
+
+#heading1{
+    color:#ab0707;
+    font-size: 46px;
+    font-weight: 800;
+    text-shadow: .5px .5px rgb(209, 117, 117);
+    padding-bottom:8px;
+    text-align: center;
+    margin:20px 10px 0px 10px;
+    
+}
+#subHeading{
+    font-size:18px;
+    font-weight: 550;
+}
+#AktuLogo{
+    height:110px;
+    padding: 5px;
+}
+
+#container{
+    height: 50px;
+    width: 100%;
+    background-color: #ab0707;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+#container2{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-wrap: wrap;
+    gap:20px;
+}
+#container3{
+    display: none;
+}
+.nav{
+    color:white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.nav:hover{
+    color:wheat;
+    scale:calc(1.01);
+    transition: 0.1s ease-in;
+}
+.nav:active{
+    scale: calc(.9);
+    transition: 0.2s linear;
+}
+@media (max-width:1050px) {
+    #container{
+        height: 30px;
+        background-color: #ab0707;
+    }
+    #bar{
+        font-size:22px;
+        color: white;
+        background-color: #ab0707;
+        margin: 20px;
+    }
+    #container2{
+        display: inline-block;
+        overflow: initial;
+        flex-direction: column;
+        position: absolute;
+        z-index: 6;
+        padding: 0px;
+        padding-top: 40px;
+        left:-100%;
+        transition: 1.5s ease-in-out;
+    }
+    #container .active1{
+       left:0px;
+       pointer-events: auto;
+    }
+    .nav{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        line-height: 45px;
+        border:1px solid black;
+        color: #ab0707;
+        font-family:sans-serif;
+        background-color:rgb(255, 247, 247);
+    }
+    #container3{
+         display: block;
+         z-index: 9;
+    }
+}
+
+
+
+@media (max-width:1300px){
+    #container1{
+        height: auto;
+        padding: 12px;
+    }
+    #srgcImg{
+        height: 100px;
+        width: 160px;
+        padding-bottom: 20px;
+    }
+    #heading1{
+        font-size: 35px;
+        margin: 1px;
+        padding-bottom: 8px;
+        font-weight: 700;
+    }
+    #subHeading{
+        font-size: 14px;
+        text-align: center;
+    }
+    #AktuLogo{
+        height:100px;
+        width: 90px;
+    }
+
+}
+
+@media(max-width:560px){
+
+    #container1{
+        padding: 8px;
+    }
+    #srgcImg{
+        height: 70px;
+        width: 90px;
+    }
+    #heading1{
+        font-size:15px;
+        padding-bottom: 4px;
+    }
+    #subHeading{
+        font-size: 8px;
+    }
+    #AktuLogo{
+        margin: 5px;
+        height:65px;
+        width: 85px;
+    }
+}
+
+
+#footerContainer{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 20px; */
+    flex-wrap: wrap;
+    padding: 40px;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.footerList{
+    color: white;
+    text-decoration: none;
+}
+#srgcLogo{
+    height: 80px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+@media(max-width:450px){
+    #srgcLogo{
+        width:350px;
+    }
+}

@@ -1,0 +1,234 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+#resultBox{
+    height: 100%;
+    width: 100%;
+}
+#heading1{
+    height: auto;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 55px;
+   color: white;
+   background-color: #ab0707;
+   border-bottom: 2px solid #ab0707;
+   margin-bottom: 150px;
+}
+#img21{
+    height: 60px;
+    width: 150PX;
+    margin: 20px;
+    border-radius: 120px;
+}
+#heading2{
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    background-color: #ab0707;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    /* display: contents; */
+}
+/* #boxCon{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+#box1{
+    height: 300px;
+    width:600px;
+    color: white;
+    background-color: #ab0707;
+    /* background-color: #21D4FD; */
+    /* background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); */
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#sumbit{
+    height: 40px;
+    width: 80px;
+    background-color: rgb(2, 2, 13);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+#sumbit:active{
+    transform: scale(0.9);
+}
+#resultBox{
+    height: 100%;
+    width: 100%;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+}
+#one{
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    font-family:  serif;
+    display: inline-block;
+}
+#exam{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: Courier, monospace;
+    font-weight: bold;
+    font-family: sans-serif;
+    /* text-decoration: underline; */
+}
+#rollNo{
+    font-size: 25px;
+    font-family: Courier, monospace;
+    font-weight: 500;
+    
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+th{
+    font-size: 25px;
+    background-color: rgb(239, 220, 220);
+    color: #110202;
+    text-align: center;
+    padding: 5px;
+}
+td{
+    font-size: 20px;
+    background-color: rgb(255, 249, 249);
+    color: #1b0707;
+    text-align: center;
+    padding: 13px; 
+    font-weight: bolder;    
+ }
+ #score1{
+    background-color: rgb(239, 220, 220);
+    color: black;
+    font-size: 25px;
+
+ }
+ #score{
+    background-color:rgb(239, 220, 220);
+    color: black;
+    
+ }
+h2{
+    font-size: 40px;
+}
+#name , #rollNoStd{
+    font-size: 25px;
+   text-align: center;
+   /* font-style: italic; */
+ color: black;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+
+    
+#score{
+    font-size: 21px;
+    font-weight: bold;
+}
+#statusP{
+    width: 100%;
+    font-size: 30px;
+    text-align: right;
+    margin-top: 20px;
+    color: white;
+    font-weight: bolder;
+    background-color: #ab0707;
+    border: 2px solid black;
+
+
+}
+table{
+    height: 240px;
+    width: 950px;
+}
+@media(max-width:950px){
+    table{
+        height: auto;
+        width: auto;
+    }
+}
+@media(max-width:780px){
+    #heading1{
+        font-size: 35px;
+    }
+    #box1{
+        height: 300px;
+        width:100%;
+        color: white;
+        border: 2px solid white;
+        border-radius: 20px;
+       
+    }
+    #box1 h1{
+        color: inherit;
+    }
+    #sumbit{
+        font-size: 20px;
+        color: white;
+        background-color: rgb(5, 5, 22);
+    }
+    #one{
+        font-size: 25px;
+        color: white;
+    }
+    #exam{
+        font-size: 25px;
+       
+    }
+    #rollNo{
+        font-size: 20px;
+        width:160px;
+    }
+    th{
+        padding: 5px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    td{
+        padding: 15px;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    #statusP{
+        font-size: 30px;
+    }
+}
+
+#print{
+    background-color: #ab0707;
+    margin-top: 1px;
+    margin-bottom: 3px;
+    height: 30px;
+    width: 60px;
+    color: white;
+    border-radius:10px;
+    font-size: 18px;
+    font-weight: 400;
+
+}

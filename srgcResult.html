@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="Result.css">
+</head>
+<body>
+<header>
+    <center>
+        <h1 id="heading1"><img id="img21" src="asset/srgclogo.png">Shri Ram Group of Colleges</h1>
+        
+
+    <div id="boxCon">
+        <div id="box1">
+            <h1 id="exam">Mid Term Examination Result 2024-25</h1>
+            <h1 id="exam">B.Tech (CSE)</h1>
+
+            <label for="rollNo">
+                <p id="one">Roll No. : </p>.
+                <input type="text" placeholder="Enter Your Roll No." id="rollNo">
+            </label>
+            <label id="sumbit">
+                <button onclick="sumbit()" id="sumbit">Sumbit</button>
+            </label>
+        </div>
+    </div>
+    </center>
+</header>
+<main>
+<section>
+        <div id="resultBox">
+
+            <h1 id="heading2">Mid Term Examination Result 2023-24 "B.Tech (C.S.E)" </h1>
+            <button id="print">Print</button>
+
+            <h2 id="name"></h2>
+            <h2 id="rollNoStd">23</h2>
+            <table border="2">
+                <tr>
+                    <th>Subject Code</th>
+                    <th>Subject</th>
+                    <th>Mark</th>
+                </tr>
+                <tr>
+                    <td>BCS303</td>
+                    <td>Discrete Structure & Theory Of Logic</td>
+                    <td id="dstl" style="font-weight: bold;"></td>
+                </tr>
+                <tr>
+                    <td>BCS302</td>
+                    <td>Computer Organization And Architecture</td>
+                    <td id="coa" style="font-weight: bold;"></td>
+                </tr>
+                <tr>
+                    <td>BCS301</td>
+                    <td>Data Structure</td>
+                    <td id="ds" style="font-weight: bold;"></td>
+                </tr>
+                <tr>
+                    <td>BCC301</td>
+                    <td>Cyber Security</td>
+                    <td id="cs" style="font-weight: bold;"></td>
+                </tr>
+                <tr>
+                    <td>BOE301</td>
+                    <td>Digital Electronics</td>
+                    <td id="de" style="font-weight: bold;"></td>
+                </tr>
+                <tr>
+                    <td>BAS301</td>
+                    <td>Technical Communication</td>
+                    <td id="tc" style="font-weight: bold;"></td>
+                </tr>
+                <tr>
+                    <td id="score1" colspan="2">Score</td>
+                    <td id="score" style="font-weight: bold;"></td>
+                </tr>
+            </table>
+
+
+            <div id="statusP"></div>
+        </div>
+</section>
+</main>
+<script src="srgcData.js"></script>
+<script src="Result.js"> </script>
+</body>
+</html>
