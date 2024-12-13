@@ -175,7 +175,7 @@ table{
 }
 @media(max-width:780px){
     #heading1{
-        font-size: 35px;
+        font-size: 14px;
     }
     #box1{
         height: 300px;
@@ -189,34 +189,34 @@ table{
         color: inherit;
     }
     #sumbit{
-        font-size: 20px;
+        font-size: 12px;
         color: white;
         background-color: rgb(5, 5, 22);
     }
     #one{
-        font-size: 25px;
+        font-size: 12px;
         color: white;
     }
     #exam{
-        font-size: 25px;
+        font-size: 12px;
        
     }
     #rollNo{
-        font-size: 20px;
+        font-size: 12px;
         width:160px;
     }
     th{
         padding: 5px;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: bold;
     }
     td{
-        padding: 15px;
-        font-size: 15px;
+        padding: 12px;
+        font-size: 12px;
         font-weight: bolder;
     }
     #statusP{
-        font-size: 30px;
+        font-size: 14px;
     }
 }
 
@@ -228,7 +228,7 @@ table{
     width: 60px;
     color: white;
     border-radius:10px;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 400;
 
 }
