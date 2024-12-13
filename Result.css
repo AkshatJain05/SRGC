@@ -175,7 +175,11 @@ table{
 }
 @media(max-width:780px){
     #heading1{
-        font-size: 12px;
+        font-size: 14px;
+    }
+    #img21{
+        width:60px;
+        height:30px;
     }
     #box1{
         height: 300px;
