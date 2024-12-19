@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="Certificate.css">
+    <style>
+        *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, .1) 0%, rgba(89, 99, 212, 0.01) 35%, rgba(0, 212, 255, .04) 100%);
+}
+#easyway{
+    height: 40px;
+    text-align: center;
+    /* background-color: rgb(89,99,212); */
+    background: #ab0707;
+    /* background: linear-gradient(0deg, rgba(131, 58, 250, 1) 0%, rgba(107, 89, 204, 1) 72%, rgba(99, 99, 212, 1) 96%, rgba(89, 99, 206, 1) 98%, rgba(89, 99, 212, 0.01) 100%, rgba(252, 176, 69, 1) 100%); */
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+#container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#border{
+    height: 600px;
+    width: 850px;
+    background-image: url("asset/Certificate.jpg");
+    background-size: contain;
+    
+}
+#step1{
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+position:relative;
+top:200px;
+left:270px;
+}
+#step2{
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+position:relative;
+top:200px;
+left:250px;
+}
+#step3{
+font-family: Arial, Helvetica, sans-serif;
+position:relative;
+top:300px;
+left:250px;
+}
+#step4{
+font-size:18px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+position: relative;
+top:250px;
+left:460px;
+}
+#step5{
+    color:rgb(255, 255, 255);
+font-size:20px;
+font-weight: bold;
+font-family: cursive;
+position: relative;
+top:190px;
+left:405px;
+}
+#box1{
+    height: 100px;
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#name{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+font-size:40px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+position: relative;
+top:180px;
+}
+#step6{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #ab0707;
+    font-weight: bold;
+    position: relative;
+    top:190px;
+    left:105px;
+}
+
+    </style>
+</head>
+<body>
+    <div id="easyway">
+        <center>
+          <h1>Shri Ram Group og Colleges </h1>
+        </center>
+      </div>
+    <div id="container">
+        <div id="border">
+            <h1 id="step1">Of Achievement</h1>
+            <h3 id="step2">This Certificate is awarded to:</h3>
+            <h4 id="step3">for successfully completing the C Language Quiz  </h4>
+            </h4>
+            <div id="box1"><p id="name"></p></div>
+            <pre id="step4"> 
+                Dr. Ashish Chauhan
+                      Convener
+            </pre>
+            <div id="step6">Shri Ram Group og Colleges</div>
+
+        </div>
+    </div>
+    <script>
+        let enterName=prompt("Enter your Name");
+        let password=prompt("Enter Your Password")
+        if(enterName=='Akshat Jain'&&password==123){
+        document.querySelector('#name').innerText=enterName;
+        }
+       else if(enterName=='Ansh Singhal'&&password==123){
+        document.querySelector('#name').innerText=enterName;
+        }
+        else if(enterName=='Aayush Tyagi'&&password==123){
+        document.querySelector('#name').innerText=enterName;
+        }
+        else if(enterName=='Hardik Sharma'&&password==123){
+        document.querySelector('#name').innerText=enterName;
+        }
+        else{
+            console.log(alert('Please enter your correct details'));
+            window.location.assign('Project2.0.html')
+        }
+    </script>
+</body>
+</html>
