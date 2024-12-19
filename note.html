@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes (light)</title>
+    <link rel="stylesheet" href="Notes.css">
+    <style>
+        *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family:sans-serif;
+}
+body{
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, .1) 0%, rgba(89, 99, 212, 0.01) 35%, rgba(0, 212, 255, .04) 100%);
+}
+
+#heading{
+    margin: 20px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+     color:black;
+}
+#one {
+    color: white;
+    background:#ab0707;
+    /* background: linear-gradient(0deg, rgba(131, 58, 250, 1) 0%, rgba(107, 89, 204, 1) 72%, rgba(99, 99, 212, 1) 96%, rgba(89, 99, 206, 1) 98%, rgba(89, 99, 212, 0.01) 100%, rgba(252, 176, 69, 1) 100%); */
+    font-size: x-large;
+    font-weight: 600;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#two {
+    width: 100%;
+    color: #ab0707;
+    font-size: xxx-large;
+    text-align: center;
+    display: grid;
+    grid-template-areas:
+        "one two three"
+        "four five seven"
+        "eight nine ten";
+ gap:40px;
+}
+.step1{
+    background:#ab0707;
+    /* background: linear-gradient(0deg, rgba(131, 58, 250, 1) 0%, rgba(107, 89, 204, 1) 72%, rgba(99, 99, 212, 1) 96%, rgba(89, 99, 206, 1) 98%, rgba(89, 99, 212, 0.01) 100%, rgba(252, 176, 69, 1) 100%); */
+    border: 2px solid black;
+    height: 80px;
+    width: 300px;
+    font-size: x-large;
+    font-weight: 600; 
+    border-radius:5px;
+}
+#three {
+    grid-area: one;
+    padding: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#four {
+    grid-area: two;
+    padding: 5px;
+}
+
+#five {
+    grid-area: three;
+    padding: 5px;
+}
+
+#six {
+    grid-area: four;
+    padding: 5px;
+}
+
+
+#seven {
+    grid-area: five;
+    padding: 5px;
+}
+
+#eight {
+    grid-area: six;
+    padding: 5px;
+}
+
+#nine {
+    grid-area: seven;
+    padding: 5px;
+}
+
+#ten {
+    grid-area: eight;
+    padding: 5px;
+}
+
+#ten1 {
+    grid-area: nine;
+    padding: 5px;
+}
+
+#ten3 {
+    grid-area: ten;
+    padding: 5px;
+}
+
+.step1:hover{
+    transform: scale(1.1);
+}
+@media(max-width:1290px){
+    #two{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        
+    }
+
+}
+    </style>
+</head>
+<body>
+    <div id="one">Shri Ram Group Of College</div>
+    <div id="heading">Notes</div>
+    <div id="two">
+        <a href="https://drive.google.com/drive/folders/13eetgjq4-fg5_fI5pMxtYewAXqZQcCQw">
+        <button id="three" class="step1">soft skills</button>
+        </a>
+        <a href="noAvailable.html">
+           <button id="four" class="step1">Engineering Chemistry</button>
+        </a>
+        <a href="noAvailable.html">
+            <button id="five" class="step1">Engineering Maths -I</button>
+         </a>
+         <a href="noAvailable.html">
+            <button id="six" class="step1">Engineering Physics</button>
+         </a>
+         <a href="noAvailable.html">
+            <button id="seven" class="step1">Fundamentals of Electrical Engineering</button>
+         </a>
+         <a href="noAvailable.html">
+            <button id="nine" class="step1">Fundamentals of mechanical Engineering</button>
+         </a>
+         <a href="noAvailable.html">
+            <button id="ten" class="step1">Environment and Ecology</button>
+         </a>
+         <a href="noAvailable.html">
+            <button id="ten1" class="step1">Fundamentals of Electronics Engineering</button>
+         </a>
+         <a href="noAvailable.html">
+            <button id="ten3" class="step1">Programming for Problem Polving</button>
+         </a>
+         <a href="Important.html">
+            <button id="ten4" class="step1">Important Question</button>
+         </a>
+        </div>
+    
+</body>
+</html>
